@@ -69,16 +69,31 @@ image::ocp_35_cli_help.png["Command Line Tools"]
 [[browser-requirements]]
 == Browser Requirements
 
-Review the link:https://access.redhat.com/articles/2176281[tested integrations]
-for {product-title}.
+ifdef::openshift-enterprise[]
+Review the https://access.redhat.com/articles/2176281[tested integrations] for
+{product-title}.
+endif::openshift-enterprise[]
+The following browser versions and operating systems can be
+used to access the web console.
 
-ifdef::openshift-online,openshift-dedicated[]
-From the *About* page in the web console, you can check the cluster's version number.
+[cols="1,2"]
+.Browser Requirements
+|===
+|Browser (Latest Stable) |Operating System
 
-image::about_page_dropdown.png[About page]
+|Firefox
+|Fedora 23, Windows 8
 
-image::version_number.png[version number]
-endif::openshift-online,openshift-dedicated[]
+|Internet Explorer
+|Windows 8
+
+|Chrome
+|Fedora 23, Windows 8, and MacOSX
+
+|Safari
+|MacOSX, iPad 2, iPhone 4
+
+|===
 
 [[project-overviews]]
 
