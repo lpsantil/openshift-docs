@@ -388,8 +388,6 @@ Topics:
   Distros: openshift-origin,openshift-enterprise
 - Name: Configuring for VMWare vSphere
   File: configuring_vsphere
-- Name: Configuring for local Volume
-  File: configuring_local
 - Name: Configuring Persistent Storage
   Dir: persistent_storage
   Distros: openshift-origin,openshift-enterprise
@@ -418,10 +416,8 @@ Topics:
     File: persistent_storage_azure_file
   - Name: Using FlexVolume
     File: persistent_storage_flex_volume
-  - Name: Using VMWare vSphere
+  - Name: Persistent Storage Using VMWare vSphere Volume
     File: persistent_storage_vsphere
-  - Name: Using Local Volume
-    File: persistent_storage_local
   - Name: Dynamic Provisioning and Creating Storage Classes
     File: dynamically_provisioning_pvs
   - Name: Volume Security
@@ -672,8 +668,6 @@ Topics:
     File: optimizing_storage
   - Name: Network Optimization
     File: network_optimization
-  - Name: Routing Optimization
-    File: routing_optimization
   - Name: Scaling Cluster Metrics
     File: scaling_cluster_metrics
   - Name: Cluster Limits
@@ -698,9 +692,6 @@ Topics:
 - Name: Administrator CLI Operations
   File: admin_cli_operations
   Distros: openshift-enterprise,openshift-dedicated,openshift-origin
-- Name: Extending the CLI
-  File: extend_cli
-  Distros: openshift-enterprise,openshift-origin
 - Name: Revision History
   File: revhistory_cli_reference
   Distros: openshift-enterprise,openshift-dedicated
